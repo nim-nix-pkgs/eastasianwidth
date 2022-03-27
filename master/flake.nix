@@ -11,6 +11,7 @@
   inputs.src-eastasianwidth-master.ref   = "refs/heads/master";
   inputs.src-eastasianwidth-master.owner = "jiro4989";
   inputs.src-eastasianwidth-master.repo  = "eastasianwidth";
+  inputs.src-eastasianwidth-master.dir   = "";
   inputs.src-eastasianwidth-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
